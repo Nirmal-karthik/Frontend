@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Tuffy:ital,wght@0,700;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Libre Caslon Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: #ffa600cc;
+}
+.header {
+  height: 40px;
+}
+.icons {
+  height: 20px;
+  width: 30px;
+}
+.call {
+  height: 45px;
+  width: 45px;
+}
+.header-1 {
+  background-color: blue;
+  color: white;
+}
+.header-2 {
+  background-color: #ffa600cc;
+}
+.Name {
+  font-weight: bold;
+  font-size: 50px;
+  background-color: rgba(255, 166, 0, 0.801);
+}
+.button {
+  color: white;
+  background-color: #ffa600cc;
+  margin-left: 70px;
+  margin-right: 10px;
+}
+.navigate {
+  background-color: bisque;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+.nav-link:hover {
+  color: #ffa600cc;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: bisque;
+}
+.carousel-caption {
+  text-align: left;
+  bottom: 10%;
+  color: #000;
+  background-color: black;
+}
+.carousel-caption p {
+  color: bisque;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.row img {
+  height: 70%;
+  width: 30%;
+}
+.pic-2 {
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.content h5 {
+  color: darkblue;
+}
+.content {
+  margin-top: 10px;
+  display: grid;
+  gap: 20px;
+}
+.hero {
+  background-color: bisque;
+}
+.pic-1,
+.pic-2 {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  animation: move 2s;
+}
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.tags {
+  color: darkblue;
+  display: flex;
+  flex-direction: row;
+}
+.icon-1 {
+  padding: 20px;
+  background-color: #ffa600cc;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+}
+.cont .col {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.hero-1 {
+  background-color: darkblue;
+  width: 100%;
+  height: 250px;
+}
+.hero-1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+}
+.box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+}
+.icons-1 {
+  height: 50px;
+  width: 50px;
+}
+.hero-2 {
+  background-color: bisque;
+}
+.image-box {
+  position: relative;
+}
+#pic {
+  width: 100%;
+  padding: 50px;
+}
+.play {
+  position: absolute;
+  background-color: bisque;
+  border-radius: 50px;
+  margin-top: 350px;
+  margin-left: -80px;
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+}
+.reason {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.hero-2-text {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 40px;
+}
+.service {
+  text-align: center;
+  font-weight: bold;
+}
+.post {
+  position: relative;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.post img {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  background-color: white;
+  margin-top: -70px;
+  margin-left: 120px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.post p {
+  opacity: 0;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.post h1 {
+  text-align: center;
+  margin-top: 150px;
+  opacity: 100%;
+  transition: 0.5s;
+}
+.post:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(209, 140, 255, 1) 0%,
+    rgba(29, 51, 253, 1) 0%,
+    rgba(252, 228, 69, 1) 70%
+  );
+  transition: 0.5s;
+}
+.post:hover h1 {
+  margin-top: 50px;
+}
+.post:hover p {
+  opacity: 100%;
+}
+.post button {
+  margin-top: 10px;
+  margin-left: 150px;
+}
+.hero-3 {
+  background-color: darkblue;
+  padding: 50px;
+  text-align: center;
+}
+.hero-3 h3 {
+  color: dimgrey;
+}
+.image-carousel {
+  margin-top: 100px;
+  width: 100%;
+  overflow-x: auto;
+}
+.image-track {
+  display: flex;
+}
+.image-track img {
+  width: 30%;
+  height: 300px;
+  padding: 10px;
+  transition: 0.5s;
+}
+.image-track img:hover {
+  margin-top: -70px;
+}
+.hero-4 {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+.hero-4-img {
+  margin: 0;
+  padding-left: 170px;
+  padding-right: 100px;
+}
+.hero-4-img .col {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.hero-4-img img {
+  height: 550px;
+  width: 80%;
+  transition: 0.5s;
+}
+.hero-4-img .icons {
+  font-size: 35px;
+  margin: 0;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0;
+}
+.hero-4-img p {
+  opacity: 0;
+}
+.hero-4-img .col:hover h3 {
+  opacity: 0%;
+  background-color: #ffa600cc;
+}
+.hero-4-img .col:hover .icons {
+  opacity: 100%;
+  background-color: #ffa600cc;
+  height: 50px;
+  width: 50px;
+}
+.hero-4-img .col:hover p {
+  opacity: 100%;
+  background-color: #ffa600cc;
+}
+.hero-4-img .col:hover img {
+  width: 70%;
+  height: 450px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  color: white;
+  background-color: darkblue;
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+}
+.office ion-icon {
+  float: left;
+  margin-right: 5px;
+}
+.office p {
+  margin-top: 2px;
+}
+.office .icons {
+  background-color: #ffa600cc;
+  border-radius: 100px;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+}
+.office .icons:hover {
+  color: black;
+  transition: 0.5s;
+}
+.quick-links ion-icon {
+  display: inline-block;
+  margin-right: 5px;
+}
+.quick-links a {
+  display: inline-block;
+  margin-top: 2px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: white;
+}
+.quick-links a:hover {
+  letter-spacing: 2px;
+  transition: 0.5s;
+  color: dimgray;
+}
+.business-hours h6 {
+  font-weight: bold;
+}
+.business-hours p {
+  color: dimgrey;
+}
+.news-letter button {
+  background-color: #ffa600cc;
+  color: white;
+}
